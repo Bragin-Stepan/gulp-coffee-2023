@@ -1,0 +1,27 @@
+// Firefox
+* {
+  scrollbar-width: rem(10);
+  scrollbar-color: var(--primary-color) #d6d6d6;
+
+  // Chrome, Edge, and Safari
+  &::-webkit-scrollbar {
+    width: rem(10);
+    background-color: var(--white-color);
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 rem(6) rgba(#222, 20%);
+    // border-radius: rem(4);
+    background: #eee;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    // border-radius: rem(4);
+    border: 0 none #252525;
+    background-color: #000;
+
+    // &:hover {
+    //   background-color: #222;
+    // }
+  }
+}

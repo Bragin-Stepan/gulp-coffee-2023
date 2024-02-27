@@ -1,0 +1,29 @@
+// Заголовки, общие БЄМ блоки и проче...
+:root {
+  text,
+  a,
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    font-family: var(--bs-font-family);
+  }
+}
+header,
+section {
+  padding: 20px 0;
+}
+footer {
+  padding-top: 40px;
+}
+
+body {
+  h2 {
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 15px;
+    color: var(--light-color);
+  }
+}

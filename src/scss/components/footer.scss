@@ -1,0 +1,20 @@
+footer {
+  .text-span {
+    text-decoration-line: underline;
+  }
+  i,
+  span {
+    color: var(--light-color);
+  }
+  span:hover {
+    color: rgb(180, 180, 180);
+  }
+
+  .fa-brands:hover {
+    color: rgb(180, 180, 180);
+  }
+  .copyright {
+    padding-top: 50px;
+    opacity: 50%;
+  }
+}
